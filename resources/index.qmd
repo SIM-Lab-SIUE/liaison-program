@@ -1,0 +1,322 @@
+---
+title: "Resources"
+---
+
+## Essential Downloads
+
+### Liaison Obsidian Vault
+
+Your complete workspace for the Liaison Program.
+
+**[📥 Download Liaison_Vault.zip](Liaison_Vault.zip){.btn .btn-primary .btn-lg}**
+
+**What's Included:**
+- 📁 **00_Inbox** - Quick capture area
+- 📔 **01_Journal** - Weekly reflection templates
+- 📚 **02_Literature** - Reading notes
+- 🔬 **03_Project** - Research workspace (prospectus, codebook, data, drafts)
+- 🖼️ **04_Resources** - Attachments and media
+- 📋 **99_Templates** - Assignment templates
+
+**Size:** ~15 MB | **Format:** ZIP
+
+---
+
+### Optional: Textbook Package
+
+Supplemental textbook bundle for reference.
+
+**[📥 Download 05_Textbook.zip](../05_Textbook.zip)** <span class="resource-badge">Optional</span>
+
+Extract into your vault's `04_Resources/` folder or keep adjacent for quick access.
+
+---
+
+## Required Software
+
+Install these tools before starting Phase 1:
+
+:::{.card-grid}
+
+::: {.card}
+### 🗂️ Obsidian
+
+Personal knowledge management system
+
+<span class="resource-badge">Free</span>
+
+[Download](https://obsidian.md/){.btn .btn-secondary}  
+[Setup Guide](../setup.qmd){.btn .btn-sm}
+:::
+
+::: {.card}
+### 🐙 GitHub
+
+Version control and collaboration
+
+<span class="resource-badge">Free</span>
+
+[Sign Up](https://github.com/signup){.btn .btn-secondary}  
+[Setup Guide](../github-setup.qmd){.btn .btn-sm}
+:::
+
+::: {.card}
+### 📊 R & RStudio
+
+Statistical analysis and visualization
+
+<span class="resource-badge">Free</span>
+
+[Download R](https://cran.r-project.org/){.btn .btn-secondary}  
+[Download RStudio](https://posit.co/download/rstudio-desktop/){.btn .btn-secondary}  
+[Install Guide](install-r-rstudio.qmd){.btn .btn-sm}
+:::
+
+::: {.card}
+### 💻 VS Code
+
+Code editor with Git integration
+
+<span class="resource-badge">Free</span>
+
+[Download](https://code.visualstudio.com/){.btn .btn-secondary}  
+[Install Guide](install-vscode.qmd){.btn .btn-sm}
+:::
+
+:::
+
+---
+
+## Quick Links
+
+- [Setup Guide](../setup.qmd) - Complete your workspace in 15 minutes
+- [Phase I: The Journalist](../modules/01_journalist/index.qmd) - Start the program
+- [Syllabus](../syllabus.qmd) - Course policies and schedule
+- [Vibes to Variables Textbook](https://sim-lab-siue.github.io/vibes-to-variables/) - Companion textbook
+
+---
+
+## Need Help?
+
+**Email:** aleith@siue.edu  
+**Office Hours:** MW 10:00–11:30 AM and 1:30–3:00 PM
+[Setup Guide](../obsidian-setup.qmd){.btn .btn-sm .btn-primary}
+:::
+
+::: {.card}
+<span class="card-icon">💾</span>
+
+### Git & GitHub
+
+Version control for your projects and collaboration.
+
+<span class="resource-badge">Free</span>
+
+[Download Git](https://git-scm.com/){.btn .btn-sm .btn-secondary}
+[Setup Guide](../github-setup.qmd){.btn .btn-sm .btn-primary}
+:::
+
+::: {.card}
+<span class="card-icon">📊</span>
+
+### R & RStudio
+
+Statistical computing and data analysis.
+
+<span class="resource-badge">Free</span>
+
+[Download RStudio](https://posit.co/download/rstudio-desktop/){.btn .btn-sm .btn-secondary}
+[Setup Guide](install-r-rstudio.qmd){.btn .btn-sm .btn-primary}
+:::
+
+::: {.card}
+<span class="card-icon">💻</span>
+
+### VS Code
+
+Professional code editor for Python, R, and more.
+
+<span class="resource-badge">Free</span>
+
+[Download VS Code](https://code.visualstudio.com/){.btn .btn-sm .btn-secondary}
+[Setup Guide](install-vscode.qmd){.btn .btn-sm .btn-primary}
+:::
+
+:::
+
+---
+
+## Learning Templates
+
+Ready-to-use templates in your vault:
+
+:::{.resource-card}
+
+#### 📔 Weekly Journal Template
+<span class="resource-badge time">10-15 min</span>
+
+Use this each week to reflect on your learning using one of three thinking paths:
+- **The Connector** - How does this relate to what I know?
+- **The Troubleshooter** - What problems did I solve?
+- **The Critic** - Does this match my experience?
+
+[View Template](../Liaison_Vault/99_Templates/Weekly_Journal_Template.md){.btn .btn-sm .btn-secondary}
+:::
+
+:::{.resource-card}
+
+#### 📋 Data Dictionary Template
+<span class="resource-badge time">15-20 min</span>
+
+Define your variables and create your codebook in Phase 3. Includes columns for:
+- Variable name, definition, type, allowed values, and examples
+
+[View Template](../Liaison_Vault/99_Templates/Data_Dictionary_Template.md){.btn .btn-sm .btn-secondary}
+:::
+
+:::{.resource-card}
+
+#### 📖 Vault Orientation File
+<span class="resource-badge time">5 min</span>
+
+Start here for an overview of your vault structure and folder purposes.
+
+[View File](../Liaison_Vault/00_START_HERE.md){.btn .btn-sm .btn-secondary}
+:::
+
+---
+
+## Learning Guides
+
+Step-by-step setup and configuration guides:
+
+:::{.resource-card}
+
+#### 🚀 Complete Setup Guide
+<span class="resource-badge time">15-20 min</span>
+
+Full walkthrough for configuring your workspace, Obsidian, and tools.
+
+[Read Setup Guide](../setup.qmd){.btn .btn-sm .btn-secondary}
+:::
+
+:::{.resource-card}
+
+#### 🧭 R & RStudio Installation
+<span class="resource-badge time">20-30 min</span>
+
+Detailed instructions for Windows, macOS, and Linux with troubleshooting.
+
+[Read R Setup Guide](install-r-rstudio.qmd){.btn .btn-sm .btn-secondary}
+:::
+
+:::{.resource-card}
+
+#### 💻 VS Code Setup for R & Python
+<span class="resource-badge time">15-20 min</span>
+
+Configure VS Code with extensions, GitHub integration, and workflow tips.
+
+[Read VS Code Guide](install-vscode.qmd){.btn .btn-sm .btn-secondary}
+:::
+
+:::{.resource-card}
+
+#### 🔗 GitHub & Git Quickstart
+<span class="resource-badge time">10-15 min</span>
+
+Learn version control basics and how to sync your projects.
+
+[Read GitHub Guide](../github-setup.qmd){.btn .btn-sm .btn-secondary}
+:::
+
+---
+
+## Getting Help
+
+### Questions by Topic
+
+**Setup & Tools:**
+- Can't install Obsidian? [See setup guide](../setup.qmd)
+- Git not working? [See GitHub guide](../github-setup.qmd)
+- R installation stuck? [See R guide](install-r-rstudio.qmd)
+
+- What is The Journalist phase? [Read Phase I](../modules/01_journalist/index.qmd)
+- What is The Architect phase? [Read Phase II](../modules/02_architect/index.qmd)
+- What is The Builder phase? [Read Phase III](../modules/03_builder/index.qmd)
+
+**General Questions:**
+- Email Dr. Leith: **aleith@siue.edu**
+- Office Hours: **MW 10:00–11:30 AM** or **1:30–3:00 PM** (or by appointment)
+
+---
+
+## FAQ {#faq}
+
+**Q: Do I need to download the textbook?**  
+A: No, it's optional. You can access course readings through the library or online sources.
+
+**Q: Can I use Excel instead of R?**  
+A: Yes, Excel works for basic analysis. R is recommended for more complex projects.
+
+**Q: What if I already use a note-taking app?**  
+A: Obsidian is recommended but optional. The course works with Notion, OneNote, or even physical notebooks.
+
+**Q: Where do I turn in my work?**  
+A: Save deliverables in your Liaison_Vault under `03_Project/`. Dr. Leith will collect via email or learning management system.
+
+**Q: Can I work with others?**  
+A: Absolutely! Pair programming and collaborative analysis are encouraged. Document who contributed what.
+
+**Q: What if I fall behind?**  
+A: Reach out to Dr. Leith early. The phases are structured but flexible—we can adjust timelines if needed.
+
+**Q: Are there textbooks or readings?**  
+A: Course readings will be posted in each phase. Check Phase 1 for the syllabus.
+
+---
+
+## Recommended Third-Party Resources
+
+### For Data Analysis
+- [R4DS Online Learning Community](https://r4ds.had.co.nz/) - Free R guide
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - Free Python guide
+- [Kaggle Learn](https://kaggle.com/learn) - Short courses on data skills
+
+### For Research Methods
+- [JSTOR Daily](https://daily.jstor.org/) - Accessible research articles
+- [Google Scholar](https://scholar.google.com/) - Academic search
+- [ResearchGate](https://www.researchgate.net/) - Connect with researchers
+
+### For Communication
+- [Data Viz Catalogue](https://www.datavizcatalogue.com/) - Chart types and usage
+- [Canva](https://www.canva.com/) - Free design templates
+- [Hemingway App](http://www.hemingwayapp.com/) - Improve your writing clarity
+
+---
+
+## Software Comparison Chart
+
+| Tool | Cost | Best For | Learning Curve |
+|---|---|---|---|
+| **Obsidian** | Free | Note-taking, vault organization | Easy |
+| **Git/GitHub** | Free | Version control, collaboration | Medium |
+| **R/RStudio** | Free | Statistical analysis, detailed control | Medium-Hard |
+| **Python** | Free | Data wrangling, flexible analysis | Medium |
+| **VS Code** | Free | Code editing, multiple languages | Medium |
+| **Excel** | Paid | Quick analysis, pivot tables | Easy |
+
+---
+
+## Feedback & Suggestions
+
+Have ideas for improving these resources?
+
+- **In-course feedback:** Talk to Dr. Leith or use Blackboard feedback
+- **Resource suggestion:** Email your ideas to aleith@siue.edu
+- **Bug report:** If links don't work, let me know!
+
+---
+
+**Last Updated:** January 2026  
+**Questions?** Email Dr. Leith (aleith@siue.edu) or visit office hours

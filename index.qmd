@@ -1,0 +1,112 @@
+---
+title: "Home"
+---
+
+:::{.hero-section}
+# MC Research Methods: The Liaison Program
+
+**Bridging Data Science and Creative Communication**
+
+Learn to translate complex research, facilitate collaboration, and guide projects from discovery to impact.
+:::
+
+---
+
+## Welcome to the Course
+
+This program teaches you to be a **Communication Liaison**—bridging data scientists and creative teams. Over five phases, you'll develop research skills and learn to navigate data-driven projects while maintaining clear communication with all stakeholders.
+
+### 📖 Reference Textbook
+
+For deeper exploration of research methods, refer to the companion textbook:  
+[Vibes to Variables](https://sim-lab-siue.github.io/vibes-to-variables/)
+
+---
+
+## Quick Start
+
+:::{.card-grid}
+
+::: {.card}
+<span class="card-icon">🚀</span>
+
+### New Student? Start Here
+
+Complete your workspace setup and download your Liaison Vault (15 minutes).
+
+[Get Started →](setup.qmd){.btn .btn-primary .btn-lg}
+:::
+
+::: {.card}
+<span class="card-icon">📋</span>
+
+### View Syllabus
+
+Review course policies, schedule, and grading information.
+
+[Read Syllabus →](syllabus.qmd){.btn .btn-secondary}
+:::
+
+:::
+
+---
+
+## The Five Phases
+
+Our research methods curriculum follows a structured path:
+
+1. **📰 Phase I: The Journalist** (Weeks 1-4) - Weekly reading journals and GitHub setup
+2. **🏗️ Phase II: The Architect** (Weeks 2-4) - Project setup, GitHub profile, and archive research
+3. **🔨 Phase III: The Builder** (Weeks 5-12) - Develop research questions, codebook, and sampling plan
+4. **📊 Phase IV: The Analyst** (Weeks 13-15) - Data wrangling, visualization, and statistical inference
+5. **🎯 Phase V: The Publisher** (Weeks 16-17) - Create final web portfolio and professional report
+
+[Start Phase I →](modules/01_journalist/index.qmd){.btn .btn-primary}
+
+---
+
+## Your Role as a Communication Liaison
+
+As a **Communication Liaison**, you bridge the gap between:
+
+- **Data Scientists** who understand the numbers
+- **Creative Teams** who understand the audience  
+- **Project Stakeholders** who understand the goals
+
+Your job is to **translate**, **facilitate**, and **document**—turning complex insights into clear action.
+
+---
+
+## The Five-Phase Journey
+
+This program is structured as a progressive learning experience:
+
+| Phase | Title | Focus | Duration |
+|-------|-------|-------|----------|
+| **🧭 1** | **Orientation** | Your role, program structure, workspace setup | Week 1-2 |
+| **🔍 2** | **Discovery** | Research methodologies & asking good questions | Week 3-4 |
+| **📖 3** | **The Dictionary** | Codebook creation & variable definition | Week 5-7 |
+| **⚙️ 4** | **Execution** | Apply methods to real projects | Week 8-10 |
+| **🎯 5** | **Delivery** | Present findings & communicate impact | Week 11-13 |
+
+Each phase builds on the previous one. **Start with Phase 1** in the sidebar or use the buttons above.
+
+---
+
+## Course Information at a Glance
+
+**Instructor:** Dr. Alex P. Leith  
+**Meeting Times:** MW 15:00–16:15  
+**Office Hours:** MW 10:00–11:30 and 13:30–15:00 (or by appointment)
+
+[📄 View Full Syllabus](syllabus.qmd){.btn .btn-primary}
+
+:::{.callout-info}
+**Ready to dive in?** Start with the [Setup Guide](setup.qmd) — it only takes 15 minutes to configure your workspace and download your Liaison Vault.
+
+Need the full syllabus? [Download the Course Syllabus (PDF)](MC451-Syllabus-2026Spring.pdf)
+:::
+
+---
+
+**Let's build something great together.** Welcome to the Liaison Program! 🚀

@@ -1,0 +1,90 @@
+---
+title: "Getting Started"
+---
+
+## Welcome to the Liaison Program
+
+Complete these four steps to set up your workspace. **Time needed:** 15-20 minutes.
+
+:::{.callout-important}
+## Before You Begin
+Make sure you have a reliable internet connection and about 500 MB of free disk space.
+:::
+
+---
+
+## Step 1: Download Your Workspace
+
+1. Visit the [Resources page](resources/index.qmd)
+2. Click **Download Liaison_Vault.zip**
+3. Extract the ZIP file to:
+   - **Windows**: `C:\Users\YourName\Documents\Liaison_Vault`
+   - **Mac**: `~/Documents/Liaison_Vault`
+   - **Linux**: `~/Documents/Liaison_Vault`
+
+---
+
+## Step 2: Install Obsidian
+
+1. Visit [obsidian.md](https://obsidian.md/)
+2. Download Obsidian for your operating system
+3. Install and open Obsidian
+4. Click **"Open folder as vault"**
+5. Navigate to your `Liaison_Vault` folder and select it
+
+**Your vault will open with folders, templates, and a start guide ready to go.**
+
+---
+
+## Step 3: Configure Obsidian
+
+Once your vault is open:
+
+1. Click the **Settings** icon (gear, bottom left)
+2. Navigate to **Files & Links**
+3. Set **Default location for new attachments** to `04_Resources`
+4. Close settings
+
+This ensures images and PDFs are stored in the correct folder.
+
+---
+
+## Step 4: Explore Your Workspace
+
+Your vault is organized into six folders:
+
+| Folder | Purpose | What's Inside |
+|--------|---------|---|
+| **00_Inbox** | Quick notes & ideas | Capture rough thoughts and discussion notes here |
+| **01_Journal** | Weekly reflections | Sample journal entries showing the three thinking paths (Connector, Troubleshooter, Critic) |
+| **02_Literature** | Reading notes & course materials | Includes textbook chapters and citation templates |
+| **03_Project** | Active research work | Organized by prospectus, codebook, data, and drafts folders |
+| **04_Resources** | Media & attachments | Images, PDFs, external files, and course materials |
+| **99_Templates** | Reusable templates | Weekly journal template and data dictionary template to copy and customize |
+
+---
+
+## Step 5: You're Ready!
+
+Once you complete these steps, move to **[Phase I: The Journalist](modules/01_journalist/index.qmd)** to begin.
+
+[Start Phase I →](modules/01_journalist/index.qmd){.btn .btn-primary .btn-lg}
+
+---
+
+## Troubleshooting
+
+**Q: I extracted the ZIP file but Obsidian won't open it as a vault**
+- Make sure you're opening the folder that contains the `.obsidian` hidden folder
+- Try right-clicking the folder and checking "Show hidden files" if needed
+
+**Q: Where do I put my weekly journal entries?**
+- Create a new file in `01_Journal` named something like `Week_01_MyName.md`
+- Copy the template from `99_Templates/Weekly_Journal_Template.md` and fill it out
+
+**Q: Can I share my vault with classmates?**
+- Yes! You can email them the ZIP file, or sync it via Git/GitHub for collaborative projects
+
+---
+
+**Questions?** Reach out via your course management system or check your course syllabus for contact information.

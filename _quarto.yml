@@ -1,0 +1,41 @@
+project:
+  type: website
+  title: "MC Research Methods: The Liaison Program"
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "modules/**/*.qmd"
+    - "resources/*.qmd"
+
+website:
+  title: "MC Research Methods: The Liaison Program"
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Get Started"
+        href: setup.qmd
+      - text: "Syllabus"
+        href: syllabus.qmd
+      - text: "Phases"
+        menu:
+          - text: "Phase I: The Journalist"
+            href: modules/01_journalist/index.qmd
+          - text: "Phase II: The Architect"
+            href: modules/02_architect/index.qmd
+          - text: "Phase III: The Builder"
+            href: modules/03_builder/index.qmd
+          - text: "Phase IV: The Analyst"
+            href: modules/04_analyst/index.qmd
+          - text: "Phase V: The Publisher"
+            href: modules/05_publisher/index.qmd
+      - text: "Resources"
+        href: resources/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: false
+    css: custom-styling.scss
