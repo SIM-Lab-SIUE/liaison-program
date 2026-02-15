@@ -2,6 +2,22 @@
 title: "Resources"
 ---
 
+## Course Documents
+
+### Syllabus Contract
+
+Review and sign the Syllabus Contract to confirm you understand course policies, grading expectations, and academic integrity standards.
+
+**[📥 Download Syllabus Contract (PDF)](Syllabus_Contract.pdf){.btn .btn-primary}**
+
+### Annotated Manuscript Example
+
+An example of a properly annotated research article, demonstrating the critical reading protocol used in Week 5.
+
+**[📥 Download Annotation Example (PDF)](annotation-example.pdf){.btn .btn-primary}**
+
+---
+
 ## Essential Downloads
 
 ### Liaison Obsidian Vault
