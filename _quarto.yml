@@ -35,7 +35,10 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, custom-styling.scss]
     toc: true
     code-fold: false
-    css: custom-styling.scss
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
