@@ -1,11 +1,11 @@
 ---
-title: "� Phase III: The Builder"
+title: "Phase III: The Builder"
 ---
 
 :::{.phase-header}
 # Phase III: The Builder
 
-**Duration:** Weeks 5-12 (Feb 09 - Mar 30) | **Points:** 250  
+**Duration:** Weeks 5–12 | **Points:** 250
 Construct your research framework and measurement tools
 :::
 
@@ -16,214 +16,95 @@ Construct your research framework and measurement tools
 By the end of Phase III, you will:
 
 :::{.learning-objectives}
-- ✅ Apply theory to frame research questions
-- ✅ Define variables conceptually and operationally
-- ✅ Build a comprehensive codebook
-- ✅ Design and pilot test a sampling plan
-- ✅ Complete ethics certification (CITI)
-:::
-- ✅ Test definitions with pilot data
-- ✅ Document coding decisions and edge cases
-- ✅ Assess inter-coder reliability
-- ✅ Iterate on definitions based on pilot testing
+- Understand research ethics and complete CITI certification
+- Apply theory to frame research questions
+- Understand the full methods landscape (surveys, experiments, qualitative, content analysis)
+- Define variables conceptually and operationally
+- Build a comprehensive codebook through qualitative immersion
+- Design a sampling plan and pilot test your coding scheme
+- Document edge cases, coding decisions, and codebook revisions
 :::
 
 ---
 
-## What You'll Do
+## Phase III Overview
 
-A **data dictionary** is like a translation guide for your data. It tells anyone (including future you!) exactly what each variable means:
-
-- **Variable names** - How is this stored in your data?
-- **Definitions** - What does this variable measure?
-- **Types** - Is it text, number, date, category?
-- **Allowed values** - What answers are valid?
-- **Examples** - Real samples of how to code things
-- **Special rules** - Edge cases and how to handle them
+This is the longest and most substantive phase. You move from planning to building: selecting a theoretical framework, learning about multiple research methods, then diving deep into content analysis. The qualitative work you do here — immersing yourself in data, noticing patterns, developing variables — becomes Study 1 of your final project.
 
 ---
 
-## Phase 3 Content & Activities
+## Weekly Breakdown
 
-### Activity 1: Start Your Data Dictionary (Week 5)
-
-1. **Copy the Template** - Get the Data Dictionary Template from your vault
-2. **List Your Variables** - From your research questions, what will you measure?
-3. **Define Each One** - Write clear definitions for every variable
-4. **Specify Types** - Is each variable numeric, text, categorical, etc.?
-
-**Example:**
-
-| Variable | Definition | Type | Values | Example |
-|---|---|---|---|---|
-| `age_group` | Age category of respondent | Categorical | 18-25, 26-35, 36-45, 45+ | "26-35" |
-| `engagement_score` | 1-10 scale of user interaction frequency | Numeric | 1-10 (whole numbers) | 7 |
-| `content_type` | Primary content category shared | Text | Any string ≤100 chars | "news_article" |
-
-**Submit:** First draft in `03_Project/02_Codebook/Data_Dictionary_v1.md`
-
-### Activity 2: Pilot Code Your Data (Week 6)
-
-Test your definitions on a small sample:
-
-1. **Select 10-20 items** - Sample from your actual data
-2. **Code them** - Use your definitions to code each item
-3. **Track problems** - What was ambiguous or unclear?
-4. **Document decisions** - How did you resolve edge cases?
-
-**Create:** `03_Project/02_Codebook/Pilot_Decisions_Log.md`
-
-**Example entry:**
-```
-VARIABLE: content_type
-PROBLEM: Item #5 is a news article shared as a screenshot
-DECISION: Code as "news_article" (focus on content, not format)
-APPLIED: Items #5, #12, #18
-```
-
-### Activity 3: Get Feedback (Week 7)
-
-**Optional: Inter-Coder Reliability Check**
-
-If possible, have a peer code the same 10-20 items independently:
-
-- Compare your coding - How often did you agree?
-- Discuss disagreements - Why did you code differently?
-- Update your definitions - Make them clearer if needed
-
-**Measure:** Calculate % agreement or Cohen's Kappa (your instructor will guide this)
-
-### Activity 4: Finalize & Iterate (Week 7)
-
-Based on your pilot testing:
-
-1. **Clarify definitions** - Rewrite anything that was confusing
-2. **Add more examples** - Include edge cases you found
-3. **Update allowed values** - Add any new categories you discovered
-4. **Document assumptions** - What did you decide to do and why?
-
-**Submit:** `03_Project/02_Codebook/Data_Dictionary_v2_Final.md` + Pilot Summary
+| Week | Reading | Focus | Assignment Due |
+|------|---------|-------|----------------|
+| 5 | Ch 8: Ethics of Inquiry | Belmont Report; IRB; ethics in content analysis | Annotated Manuscript (25 pts) |
+| 6 | Ch 9–10: Toolkit & Surveys | Methods overview; survey design; sampling theory | Project Prospectus (25 pts) |
+| 7 | Ch 11–12: Experiments & Immersion | Experimental design (conceptual); begin data immersion | Topic Selection / RQs (25 pts) |
+| 8 | Ch 13–14: Vibes to Variables & Rulebook | Operationalization; codebook design; decision rules | Definitions Practice (25 pts) |
+| 9 | **SPRING BREAK** | | |
+| 10 | Ch 15: Sampling Plan & Pilot | Sampling strategies; pilot testing; inter-coder reliability | Codebook & Qual Memo (50 pts) |
+| 11 | Ch 16: Qualitative Methods | Interviews; focus groups; thematic analysis | Sampling Plan & Pilot (75 pts) |
+| 12 | R Workbook (no chapter) | R skills practice; remote work week | CITI Certification (50 pts) |
 
 ---
 
-## Key Concepts
+## Assignments
 
-### Variable Types
+### Annotated Manuscript (25 pts) — Week 5
 
-**Numeric** - Numbers you can do math with (age, score, count)  
-**Categorical** - Limited set of categories (gender, region, type)  
-**Text/String** - Free-form text (name, comment, description)  
-**Date** - Time-based (2024-01-15)  
-**Boolean** - True/False or Yes/No  
-
-### Measurement Scales
-
-**Nominal** - Categories with no order (blue, red, green)  
-**Ordinal** - Ranked categories (low, medium, high)  
-**Interval** - Numbers with equal spacing (temperature in°C)  
-**Ratio** - Numbers with true zero (height, weight, age)  
+Find and annotate a peer-reviewed research article related to your topic. Focus on the research gap, theoretical framework, method, findings, and limitations. Write a connection statement explaining how this article relates to your project.
 
 ---
 
-## Resources for Phase 3
+### Project Prospectus (25 pts) — Week 6
 
-:::{.resource-card}
-
-#### 📋 Data Dictionary Template
-<span class="resource-badge time">5 min</span>
-
-Ready-to-use template in your vault. Copy and customize for your project.
-
-[View Template](../../Liaison_Vault/99_Templates/Data_Dictionary_Template.md){.btn .btn-sm .btn-secondary}
-:::
-
-:::{.resource-card}
-
-#### 📚 Codebook Best Practices
-<span class="resource-badge difficulty">Beginner</span>
-
-Tips for writing clear variable definitions that others can follow.
-
-*[Content to be added]*
-:::
-
-:::{.resource-card}
-
-#### 🔍 Inter-Coder Reliability Guide
-<span class="resource-badge difficulty">Intermediate</span>
-
-How to test agreement between multiple coders and calculate kappa statistics.
-
-*[Content to be added]*
-:::
+Draft a one-page research plan: Topic, Theory, Data source, preliminary RQs, and a rough timeline.
 
 ---
 
-## What Success Looks Like
+### Topic Selection — Research Questions (25 pts) — Week 7
 
-By the end of Phase 3, you should have:
-
-:::{.deliverables}
-✅ **Complete Data Dictionary** - All variables defined with types, values, examples  
-✅ **Pilot Testing Results** - Coded 10-20 sample items  
-✅ **Decisions Log** - Edge cases documented and resolved  
-✅ **Updated Dictionary v2** - Refined based on pilot feedback  
-✅ **Week 5-7 Journal Entries** - Reflections on your coding process  
-✅ **Ready for Phase 4** - Your definitions are clear and tested  
-:::
+Submit your finalized topic, formal RQs (and/or hypotheses), a variable preview, and justification for why these questions matter.
 
 ---
 
-## Milestone Timeline
+### Definitions Practice (25 pts) — Week 8
 
-| Week | Activity | Deliverable |
-|------|----------|---|
-| Week 5 | Start data dictionary | Draft with variable list |
-| Week 6 | Pilot code 10-20 items | Decisions log + coded samples |
-| Week 7 | Refine & finalize | Data Dictionary v2 + summary |
+Define at least 4 variables with conceptual definitions, operational definitions, levels of measurement, coded values, and edge case decision rules.
 
 ---
 
-## Example: Simple Data Dictionary
+### Codebook & Qualitative Memo (50 pts) — Week 10
 
-**Project:** Analyzing tweet sentiment about climate change
-
-| Variable | Definition | Type | Values | Example |
-|---|---|---|---|---|
-| `tweet_id` | Unique identifier | Text | Any string | "1234567890" |
-| `date_posted` | When tweet was published | Date | YYYY-MM-DD | "2024-01-15" |
-| `text` | Full text of tweet | Text | Free-form ≤280 chars | "Climate action is..." |
-| `sentiment` | Overall emotional tone | Categorical | positive, neutral, negative | "positive" |
-| `has_action_call` | Does tweet ask readers to do something? | Boolean | yes, no | "yes" |
-| `reach` | Number of impressions | Numeric | 0-9,999,999 | 1250 |
+Submit your complete codebook (study overview, unit of analysis, all variables with decision rules) plus a 200–300 word qualitative memo describing the patterns you observed during immersion.
 
 ---
 
-## Next Phase
+### Sampling Plan & Pilot (75 pts) — Week 11
 
-Once you complete Phase 3:
-
-→ **[Phase IV: The Analyst](../04_analyst/index.qmd)** - Analyze your data using R
+Design your sampling strategy (search terms, date range, method) and pilot test your codebook on 10–20 items. Document edge cases, coding decisions, and any revisions.
 
 ---
 
-## Common Questions
+### CITI Ethics Certification (50 pts) — Week 12
 
-**Q: What if I don't know all variables yet?**  
-A: Start with what you know. You can add more in Phase 4.
-
-**Q: How detailed should my definitions be?**  
-A: Detailed enough that someone else could code the same way.
-
-**Q: What's a "good" inter-coder agreement score?**  
-A: 80%+ agreement is typical; 90%+ is excellent.
+Complete the CITI Program's Social & Behavioral Research training and submit your completion certificate.
 
 ---
 
-:::{.phase-navigation}
-← [Phase II: The Architect](../02_architect/index.qmd){.phase-nav-prev}
+## Key Concepts Across Phase III
 
-<span class="phase-progress">Phase 3 of 5</span>
+**Ethics (Week 5):** Belmont Report, informed consent, IRB review categories, ethics of analyzing public social media content
 
-[Phase IV: The Analyst →](../04_analyst/index.qmd){.phase-nav-next}
-:::
+**Methods Landscape (Weeks 6–7):** Content analysis, surveys, experiments, and qualitative methods — what each can and cannot tell you
+
+**Content Analysis Core (Weeks 7–11):** Immersion, operationalization, codebook construction, sampling, pilot testing, reliability
+
+**R Skills (Week 12):** Data wrangling, visualization, statistical testing — practice with the `unified_music` dataset via `coursepackR`
+
+---
+
+## Related Resources
+
+- [From Vibes to Variables — Chapters 8–16](https://sim-lab-siue.github.io/vibes-to-variables/)
+- [coursepackR Documentation](https://sim-lab-siue.github.io/coursepackR/)

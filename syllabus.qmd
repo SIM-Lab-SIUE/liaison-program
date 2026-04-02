@@ -19,7 +19,7 @@ title: "Course Syllabus"
 | **Classroom** | Dunham Hall 2039 |
 | **Duration** | Jan 12 – May 08, 2026 |
 | **Course Website** | https://sim-lab-siue.github.io/mc451-liaison-program/ |
-| **Textbook** | [Vibes to Variables](https://sim-lab-siue.github.io/vibes-to-variables/) (OER - Free) |
+| **Textbook** | [From Vibes to Variables, 2nd Ed.](https://sim-lab-siue.github.io/vibes-to-variables/) (OER - Free) |
 
 ---
 
@@ -33,37 +33,38 @@ title: "Course Syllabus"
 
 ## Course Description
 
-MC 451—Research Methods in Mass Media introduces students to core research methodologies used in mass communication. Through this course, students will explore quantitative and qualitative research methods, including surveys, experimental designs, content analysis, and in-depth interviews. The course emphasizes development of skills necessary for the design, execution, and presentation of research studies while engaging with professional and ethical principles that guide mass communication research.
+MC 451 introduces core research methodologies used in mass communication. Students explore quantitative and qualitative research methods, including surveys, experimental designs, content analysis, and in-depth interviews. The course emphasizes development of skills necessary for the design, execution, and presentation of research studies while engaging with professional and ethical principles that guide mass communication research.
+
+Students complete a two-part content analysis project across the semester: a qualitative study developing coding variables through immersion, and a quantitative study testing relationships in coded data. The final deliverable is a professional web portfolio published to GitHub Pages.
 
 ---
 
 ## Course Structure: The Five Phases
 
-### Phase I: The Journalist (Weeks 1-4) - 150 points
+### Phase I: The Journalist (Weeks 1–4) — 150 points
 - Weekly Reading Journal (150 pts)
-- GitHub Profile Setup (included in Phase II)
 
-### Phase II: The Architect (Weeks 2-4) - 125 points  
+### Phase II: The Architect (Weeks 2–4) — 125 points
 - GitHub Profile (25 pts)
 - Syllabus Contract (25 pts)
 - Project Setup (25 pts)
 - Archivist Report (25 pts)
 
-### Phase III: The Builder (Weeks 5-12) - 250 points
+### Phase III: The Builder (Weeks 5–12) — 250 points
 - Annotated Manuscript (25 pts)
 - Project Prospectus (25 pts)
-- Topic Selection - RQs (25 pts)
+- Topic Selection — RQs (25 pts)
 - Definitions Practice (25 pts)
 - Codebook & Qual Memo (50 pts)
 - Sampling Plan & Pilot (75 pts)
 - CITI Ethics Certification (50 pts)
 
-### Phase IV: The Analyst (Weeks 13-15) - 225 points
+### Phase IV: The Analyst (Weeks 13–15) — 225 points
 - Data Wrangling [R] (50 pts)
 - Describing Data [R] (75 pts)
 - Inferencing Data [R] (100 pts)
 
-### Phase V: The Publisher (Weeks 16-17) - 250 points
+### Phase V: The Publisher (Weeks 16–17) — 250 points
 - Final Web Portfolio (250 pts)
 
 **Total Points:** 1000
@@ -74,10 +75,10 @@ MC 451—Research Methods in Mass Media introduces students to core research met
 
 | Grade | Points |
 |-------|--------|
-| A | 900-1000 |
-| B | 800-899 |
-| C | 700-799 |
-| D | 600-699 |
+| A | 900–1000 |
+| B | 800–899 |
+| C | 700–799 |
+| D | 600–699 |
 | F | < 599 |
 
 ---
@@ -86,13 +87,13 @@ MC 451—Research Methods in Mass Media introduces students to core research met
 
 All software is free and open-source:
 
-- **R** - Statistical computing environment
-- **RStudio** - IDE for R and Python
-- **Obsidian** - Personal knowledge management
-- **Quarto** - Scientific and technical publishing
-- **Git** - Version control
+- **R** — Statistical computing environment
+- **RStudio** — IDE for R
+- **Obsidian** — Personal knowledge management
+- **Quarto** — Scientific and technical publishing
+- **Git** — Version control
 
-[Installation Guides →](resources/index.qmd){.btn .btn-primary}
+[Installation Guides](resources/index.qmd){.btn .btn-primary}
 
 ---
 
@@ -105,6 +106,7 @@ All software is free and open-source:
 
 ### Resubmission
 Assignments worth 50+ points may be revised and resubmitted within one week:
+
 - Final grade = average of original and resubmission
 - Example: 60% + 80% resubmission = 70% final grade
 
@@ -121,25 +123,25 @@ Per the SIUE Student Academic Code (3C2), plagiarism and cheating will not be to
 
 ## Weekly Schedule
 
-| Week | Dates | Phase | Topic | Assignments Due |
-|------|-------|-------|-------|-----------------|
-| 1 | Jan 12 | The Journalist | Ch 1: The Science of Storytelling | GitHub Profile |
-| 2 | Jan 19 | The Publisher | Ch 2: The Publishing Engine | Syllabus Contract |
-| 3 | Jan 26 | The Scientist | Ch 3: The Scientific Approach | Project Setup |
-| 4 | Feb 02 | The Search | Ch 4: Intelligence Gathering | Archivist Report |
-| 5 | Feb 09 | The Lens | Ch 5: Theory as a Lens | Annotated Manuscript |
-| 6 | Feb 16 | The Architect | Ch 6: The Project Brief | Project Prospectus |
-| 7 | Feb 23 | The Translator | Ch 7: Structured Listening | Topic Selection (RQs) |
-| 8 | Mar 02 | The Variables | Ch 8: From Vibes to Variables | Definitions Practice |
-| 9 | Mar 09 | **SPRING BREAK** | No Readings | |
-| 10 | Mar 16 | The Rulebook | Ch 9: The Rulebook | Codebook & Qual Memo |
-| 11 | Mar 23 | The Sample | Ch 10: The Sample | Sampling Plan / Pilot |
-| 12 | Mar 30 | Field Work | No Reading | CITI Certification |
-| 13 | Apr 06 | The Analyst | Ch 11: Wrangling the Data | Data Wrangling [R] |
-| 14 | Apr 13 | The Narrative | Ch 12: Visualizing the Narrative | Describing Data [R] |
-| 15 | Apr 20 | The Inference | Ch 13: Making the Call | Inferencing Data [R] |
-| 16 | Apr 27 | Remote Assembly | Ch 14: The One-Click Report | |
-| 17 | May 04 | **Finals Week** | | Final Web Portfolio |
+| Week | Dates | Reading | Assignment Due |
+|------|-------|---------|----------------|
+| 1 | Jan 12 | Ch 1: The Architecture of Curiosity | GitHub Profile |
+| 2 | Jan 19 | Ch 2–3: Trust & Reading Protocol | Syllabus Contract |
+| 3 | Jan 26 | Ch 4–5: The Archivist & Choosing Your Lens | Project Setup |
+| 4 | Feb 02 | Ch 6–7: The Roadmap & The Research Question | Archivist Report |
+| 5 | Feb 09 | Ch 8: The Ethics of Inquiry | Annotated Manuscript |
+| 6 | Feb 16 | Ch 9–10: Methodologist's Toolkit & Surveys | Project Prospectus |
+| 7 | Feb 23 | Ch 11–12: Experiments & Music Immersion | Topic Selection (RQs) |
+| 8 | Mar 02 | Ch 13–14: Vibes to Variables & The Rulebook | Definitions Practice |
+| 9 | Mar 09 | **SPRING BREAK** | |
+| 10 | Mar 16 | Ch 15: The Sampling Plan and Pilot Test | Codebook & Qual Memo |
+| 11 | Mar 23 | Ch 16: Qualitative Methods | Sampling Plan & Pilot |
+| 12 | Mar 30 | R Workbook (no chapter) | CITI Certification |
+| 13 | Apr 06 | Ch 17–18: Wrangling & Seeing Patterns | Data Wrangling [R] |
+| 14 | Apr 13 | Ch 19–20: Surprise Detector & Interpreting | Describing Data [R] |
+| 15 | Apr 20 | Ch 21–22: Portfolio & Going Live | Inferencing Data [R] |
+| 16 | Apr 27 | **Work Week** | |
+| 17 | May 04 | **Finals Week** | Final Web Portfolio |
 
 *Schedule subject to change with notice*
 
@@ -149,8 +151,9 @@ Per the SIUE Student Academic Code (3C2), plagiarism and cheating will not be to
 
 ### Accommodations (ACCESS)
 Contact Accessible Campus Community and Equitable Student Support:
+
 - **Website:** siue.edu/access
-- **Email:** myaccess@siue.edu  
+- **Email:** myaccess@siue.edu
 - **Phone:** 618-650-3726
 - **Location:** Student Success Center, Room 1203
 
@@ -173,35 +176,17 @@ Contact Accessible Campus Community and Equitable Student Support:
 
 ---
 
-## Download Full Syllabus
-
-[📄 Download Complete Syllabus (PDF)](MC451-Syllabus-2026Spring.pdf){.btn .btn-primary}
-
----
-
-*All material, assignments, and deadlines are subject to change with prior notice.*
-- Academic integrity: cite data sources and collaborators
-
----
-
 ## Quick Reference
-
-### Course Structure: Five Phases
-
-1. **Phase 1: Orientation** — Understand your role and set up your workspace
-2. **Phase 2: Discovery** — Learn research methodologies and ask the right questions
-3. **Phase 3: The Dictionary** — Master codebook creation and variable definition
-4. **Phase 4: Execution** — Apply what you've learned to real projects
-5. **Phase 5: Delivery** — Present findings and communicate impact
 
 ### Key Resources
 
-- **Liaison Obsidian Vault** — Download on the [Resources](resources/) page
-- **Weekly Journal Template** — Included in vault; guidance on the Resources page
-- **Data Dictionary Template** — Included in vault for Week 8–10 projects
+- **Textbook** — [From Vibes to Variables](https://sim-lab-siue.github.io/vibes-to-variables/) (free, online)
+- **coursepackR** — R package with datasets, templates, and setup tools
+- **Liaison Vault** — Obsidian workspace template (download on [Resources](resources/) page)
+- **Weekly Templates** — Available via `coursepackR::download_week()`
 
 ### Getting Help
 
 - **Office hours**: Stop by anytime during posted hours or schedule an appointment
 - **Email**: Send questions to aleith@siue.edu
-- **Course site**: Check the sidebar for Phase-specific materials and guidance
+- **Discord**: APLeith for quick questions
