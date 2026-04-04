@@ -15,8 +15,7 @@ Describing data is not just a technical step — it's **communication**. Every t
 
 ## Load Your Clean Data
 
-```{r}
-#| label: load-data
+```r
 
 library(tidyverse)
 
@@ -30,8 +29,7 @@ A frequency table answers the simplest question: **How many of each category do 
 
 ### One-Variable Frequency Table
 
-```{r}
-#| label: genre-frequency
+```r
 
 # Count songs by genre
 genre_counts <- music |>
@@ -50,8 +48,7 @@ This tells you the distribution of genres in the dataset. Notice that some genre
 
 A cross-tabulation shows how two categorical variables relate to each other. This is the foundation for the chi-square test in Chapter 6.
 
-```{r}
-#| label: cross-tab
+```r
 
 # Cross-tabulation: genre × mode
 cross_tab <- music |>
@@ -76,8 +73,7 @@ cross_tab
 
 Raw counts are useful, but proportions tell a richer story:
 
-```{r}
-#| label: cross-tab-proportions
+```r
 
 # Cross-tabulation with proportions (within each genre)
 music |>
@@ -122,8 +118,7 @@ Let's build a chart in stages — from basic to publication-ready.
 
 ### Stage 1: The Bare Minimum
 
-```{r}
-#| label: bar-basic
+```r
 
 # The simplest possible bar chart
 ggplot(genre_counts, aes(x = playlist_genre, y = n)) +
@@ -136,8 +131,7 @@ This works, but it's ugly and hard to read. Let's improve it step by step.
 
 Unsorted bars make it harder to compare. Use `fct_reorder()` to sort by frequency:
 
-```{r}
-#| label: bar-sorted
+```r
 
 ggplot(genre_counts, aes(x = fct_reorder(playlist_genre, n), y = n)) +
   geom_col() +
@@ -146,8 +140,7 @@ ggplot(genre_counts, aes(x = fct_reorder(playlist_genre, n), y = n)) +
 
 ### Stage 3: Add Color and Labels
 
-```{r}
-#| label: bar-colored
+```r
 
 ggplot(genre_counts, aes(x = fct_reorder(playlist_genre, n), y = n, fill = playlist_genre)) +
   geom_col(show.legend = FALSE) +           # hide legend (redundant with axis)
@@ -164,10 +157,7 @@ ggplot(genre_counts, aes(x = fct_reorder(playlist_genre, n), y = n, fill = playl
 
 ### Stage 4: Publication-Ready
 
-```{r}
-#| label: bar-final
-#| fig-width: 8
-#| fig-height: 5
+```r
 
 ggplot(genre_counts, aes(x = fct_reorder(playlist_genre, n), y = n, fill = playlist_genre)) +
   geom_col(show.legend = FALSE, width = 0.7) +
@@ -196,10 +186,7 @@ That's the difference between a homework chart and a professional one. Every ele
 
 A stacked proportional chart shows how the composition of one variable changes across categories of another. This is perfect for showing genre × mode relationships:
 
-```{r}
-#| label: stacked-chart
-#| fig-width: 8
-#| fig-height: 5
+```r
 
 music |>
   filter(!is.na(mode_label)) |>
@@ -230,10 +217,7 @@ Use this chart when you want to compare the *composition* (not the count) across
 
 Boxplots show the distribution of a continuous variable across categories. They reveal medians, spread, and outliers at a glance.
 
-```{r}
-#| label: boxplot
-#| fig-width: 8
-#| fig-height: 5
+```r
 
 music |>
   ggplot(aes(x = fct_reorder(playlist_genre, energy, .fun = median),

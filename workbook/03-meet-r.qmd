@@ -109,9 +109,7 @@ Download `music_data_raw.csv` from Blackboard (or copy it from this workbook's `
 
 Now load it:
 
-```{r}
-#| label: test-load
-#| eval: false
+```r
 
 # Load the packages
 library(tidyverse)

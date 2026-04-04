@@ -25,8 +25,7 @@ Every data wrangling task follows this sequence. By the end of this chapter, you
 
 First, load your packages and import the data:
 
-```{r}
-#| label: import
+```r
 
 # Load the packages we need
 library(tidyverse)  # for data manipulation and visualization
@@ -42,15 +41,13 @@ music_raw <- music_raw |> clean_names()
 
 Let's see what we're working with:
 
-```{r}
-#| label: first-look
+```r
 
 # How many rows and columns?
 dim(music_raw)
 ```
 
-```{r}
-#| label: column-names
+```r
 
 # What are the column names?
 names(music_raw)
@@ -70,8 +67,7 @@ Before cleaning, you need to know what's wrong. Think of this as a doctor's exam
 
 ### Check the Structure
 
-```{r}
-#| label: glimpse
+```r
 
 # glimpse() shows every column with its data type and first few values
 glimpse(music_raw)
@@ -84,8 +80,7 @@ Look at the data types:
 
 ### Check for Missing Values
 
-```{r}
-#| label: missing-values
+```r
 
 # Count missing values in each column
 # Only show columns that have at least one missing value
@@ -100,8 +95,7 @@ This tells you which columns have missing data and how much. A few missing value
 
 ### Check for Duplicates
 
-```{r}
-#| label: duplicates
+```r
 
 # How many rows total vs. how many unique rows?
 cat("Total rows:", nrow(music_raw), "\n")
@@ -113,15 +107,13 @@ cat("Duplicates:", nrow(music_raw) - nrow(distinct(music_raw)), "\n")
 
 For text/categorical columns, check the unique values. Inconsistent labels are one of the most common data problems.
 
-```{r}
-#| label: check-genre
+```r
 
 # What values does playlist_genre contain?
 music_raw |> count(playlist_genre, sort = TRUE)
 ```
 
-```{r}
-#| label: check-mode
+```r
 
 # What values does mode contain?
 music_raw |> count(mode, sort = TRUE)
@@ -129,8 +121,7 @@ music_raw |> count(mode, sort = TRUE)
 
 ### Check Numeric Variables
 
-```{r}
-#| label: numeric-summary
+```r
 
 # Summary statistics for key numeric columns
 music_raw |>
@@ -149,8 +140,7 @@ Now fix the problems you found. The order matters — handle duplicates first, t
 
 ### 3a: Remove Duplicates
 
-```{r}
-#| label: remove-duplicates
+```r
 
 # Remove exact duplicate rows
 music_clean <- music_raw |> distinct()
@@ -163,8 +153,7 @@ cat("Rows after:", nrow(music_clean), "\n")
 
 If your genre column has inconsistent capitalization or spelling (e.g., "Pop" and "pop" and "POP"), fix it:
 
-```{r}
-#| label: standardize-labels
+```r
 
 # Standardize genre labels to lowercase
 music_clean <- music_clean |>
@@ -178,8 +167,7 @@ music_clean |> count(playlist_genre, sort = TRUE)
 
 Use `case_when()` to recode or fix specific values. This function works like a series of if/then rules:
 
-```{r}
-#| label: fix-values
+```r
 
 # Create a labeled version of mode (0/1 → "minor"/"major")
 music_clean <- music_clean |>
@@ -205,8 +193,7 @@ music_clean |> count(mode_label)
 
 A **factor** is R's way of storing a categorical variable — it remembers both the values and their labels. This matters for visualization and statistical tests.
 
-```{r}
-#| label: set-factors
+```r
 
 # Convert categorical columns to factors
 music_clean <- music_clean |>
@@ -224,8 +211,7 @@ levels(music_clean$mode_label)
 
 Save your cleaned data as an `.RDS` file. RDS is R's native format — it preserves factor levels, data types, and everything else about your cleaned dataset.
 
-```{r}
-#| label: export
+```r
 
 # Save the cleaned dataset
 saveRDS(music_clean, "data/music_data_clean.RDS")
@@ -245,9 +231,7 @@ When you save as CSV, R forgets which columns are factors and what their levels 
 
 Here's the entire wrangling process in one code block, without the diagnostic checks:
 
-```{r}
-#| label: complete-pipeline
-#| eval: false
+```r
 
 library(tidyverse)
 library(janitor)

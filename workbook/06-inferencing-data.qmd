@@ -41,8 +41,7 @@ The chi-square test evaluates how much the observed data differs from what you'd
 
 ## Step 2: Build the Contingency Table
 
-```{r}
-#| label: setup
+```r
 
 library(tidyverse)
 
@@ -55,8 +54,7 @@ music_filtered <- music |> filter(!is.na(mode_label))
 
 A contingency table is the raw input for the chi-square test. It shows the count for every combination of your two variables:
 
-```{r}
-#| label: contingency-table
+```r
 
 # Build the contingency table using table()
 cont_table <- table(music_filtered$playlist_genre, music_filtered$mode_label)
@@ -65,8 +63,7 @@ cont_table
 
 Now add proportions — this helps you see the pattern before running the test:
 
-```{r}
-#| label: proportional-table
+```r
 
 # Row proportions (proportion within each genre)
 prop_table <- prop.table(cont_table, margin = 1)  # margin = 1 means row proportions
@@ -77,8 +74,7 @@ Look at the proportions. Do genres differ in their major/minor split? If every g
 
 ## Step 3: Run the Chi-Square Test
 
-```{r}
-#| label: chi-square-test
+```r
 
 # Run the chi-square test of independence
 chi_result <- chisq.test(cont_table)
@@ -102,8 +98,7 @@ The p-value is the most important number. Here's what it means in plain terms:
 - **p < .05:** The pattern is statistically significant. The probability of seeing this result by chance (if there's really no relationship) is less than 5%. We reject H₀.
 - **p ≥ .05:** The pattern is not statistically significant. We cannot reject H₀. This doesn't prove there's *no* relationship — just that we don't have enough evidence to claim one.
 
-```{r}
-#| label: interpret-p
+```r
 
 # Extract the key values
 cat("Chi-square statistic:", round(chi_result$statistic, 2), "\n")
@@ -126,8 +121,7 @@ Statistical significance tells you *whether* there's a relationship. Effect size
 
 Cramér's V ranges from 0 (no association) to 1 (perfect association):
 
-```{r}
-#| label: cramers-v
+```r
 
 # Calculate Cramér's V manually
 chi_sq <- as.numeric(chi_result$statistic)
@@ -148,8 +142,7 @@ cat("Cramér's V:", round(cramers_v, 3), "\n")
 
 A small effect means the relationship exists but is weak. A large effect means the variables are strongly associated. Most social science research finds small-to-medium effects — that's normal and expected.
 
-```{r}
-#| label: interpret-effect
+```r
 
 # Interpret the effect size
 cat("Cramér's V =", round(cramers_v, 3), "\n")
@@ -174,16 +167,14 @@ A standardized residual tells you, for each cell in the table, how much the obse
 - **Residual < -2:** This cell has *fewer* observations than expected (strong negative contribution)
 - **Residual between -2 and 2:** This cell is roughly what you'd expect
 
-```{r}
-#| label: residuals
+```r
 
 # Get standardized residuals
 residuals <- chi_result$stdres
 round(residuals, 2)
 ```
 
-```{r}
-#| label: notable-residuals
+```r
 
 # Identify cells with residuals > |2|
 residual_df <- as.data.frame(as.table(residuals))
@@ -202,8 +193,7 @@ Academic writing uses the American Psychological Association (APA) format for re
 
 > A chi-square test of independence was conducted to examine the relationship between [Variable 1] and [Variable 2]. The analysis revealed a [significant/non-significant] association, χ²([df]) = [X.XX], *p* [< .001 / = .XXX]. The effect size was [small/medium/large] (Cramér's V = [.XXX]). Examination of standardized residuals indicated that [specific finding about which cells deviated from expected values].
 
-```{r}
-#| label: apa-template
+```r
 
 # Generate the APA results sentence automatically
 cat(sprintf(

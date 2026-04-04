@@ -127,7 +127,7 @@ Code editor with Git integration
 
 **Email:** aleith@siue.edu  
 **Office Hours:** MW 10:00–11:30 AM and 1:30–3:00 PM
-[Setup Guide](../obsidian-setup.qmd){.btn .btn-sm .btn-primary}
+[Setup Guide](obsidian-setup.qmd){.btn .btn-sm .btn-primary}
 :::
 
 ::: {.card}
@@ -140,7 +140,7 @@ Version control for your projects and collaboration.
 <span class="resource-badge">Free</span>
 
 [Download Git](https://git-scm.com/){.btn .btn-sm .btn-secondary}
-[Setup Guide](../github-setup.qmd){.btn .btn-sm .btn-primary}
+[Setup Guide](github-setup.qmd){.btn .btn-sm .btn-primary}
 :::
 
 ::: {.card}
@@ -187,7 +187,7 @@ Use this each week to reflect on your learning using one of three thinking paths
 - **The Troubleshooter** - What problems did I solve?
 - **The Critic** - Does this match my experience?
 
-[View Template](../Methods_Vault/99_Templates/Weekly_Journal_Template.md){.btn .btn-sm .btn-secondary}
+[View Template](../methods-vault.qmd){.btn .btn-sm .btn-secondary}
 :::
 
 :::{.resource-card}
@@ -198,7 +198,7 @@ Use this each week to reflect on your learning using one of three thinking paths
 Define your variables and create your codebook in Phase 3. Includes columns for:
 - Variable name, definition, type, allowed values, and examples
 
-[View Template](../Methods_Vault/99_Templates/Data_Dictionary_Template.md){.btn .btn-sm .btn-secondary}
+[View Template](../methods-vault.qmd){.btn .btn-sm .btn-secondary}
 :::
 
 :::{.resource-card}
@@ -208,7 +208,7 @@ Define your variables and create your codebook in Phase 3. Includes columns for:
 
 Start here for an overview of your vault structure and folder purposes.
 
-[View File](../Methods_Vault/00_START_HERE.md){.btn .btn-sm .btn-secondary}
+[View File](../methods-vault.qmd){.btn .btn-sm .btn-secondary}
 :::
 
 ---
@@ -254,7 +254,7 @@ Configure VS Code with extensions, GitHub integration, and workflow tips.
 
 Learn version control basics and how to sync your projects.
 
-[Read GitHub Guide](../github-setup.qmd){.btn .btn-sm .btn-secondary}
+[Read GitHub Guide](github-setup.qmd){.btn .btn-sm .btn-secondary}
 :::
 
 ---
@@ -265,7 +265,7 @@ Learn version control basics and how to sync your projects.
 
 **Setup & Tools:**
 - Can't install Obsidian? [See setup guide](../setup.qmd)
-- Git not working? [See GitHub guide](../github-setup.qmd)
+- Git not working? [See GitHub guide](github-setup.qmd)
 - R installation stuck? [See R guide](install-r-rstudio.qmd)
 
 - What is The Journalist phase? [Read Phase I](../modules/01_journalist/index.qmd)
