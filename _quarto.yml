@@ -5,8 +5,11 @@ project:
   render:
     - "*.qmd"
     - "modules/**/*.qmd"
+    - "!modules/**/pokemon-practice.qmd"
     - "resources/*.qmd"
     - "workbook/*.qmd"
+  resources:
+    - "modules/04_analyst/pokemon-practice.qmd"
 
 website:
   title: "Open Methods Hub"
