@@ -3,6 +3,9 @@ title: "Practice: Data Wrangling with Pokemon"
 author: "YOUR NAME"
 date: today
 format: html
+execute:
+  eval: false
+  echo: true
 ---
 
 ## Setup
